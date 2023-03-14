@@ -9,3 +9,30 @@ I understand that design patterns can be a bit overwhelming, especially if you'r
 I've spent countless hours studying and implementing design patterns in my own projects, and I'm excited to share my knowledge with others. I'm always looking to learn more about software design and architecture, so feel free to reach out if you have any suggestions or feedback on my implementations.
 
 Thank you for taking the time to check out my repository, and I hope that my implementations of design patterns in C# will be a valuable resource for your own projects.
+
+### Design Patterns Week 10
+| Design Pattern | Has Been Implemented? | Url | 
+| --------------- | ---------------------| --- |
+| Strategy Pattern | &#9745;             | [Strategy Pattern](https://github.com/simonsejse/SoftwareDevelopment_Lectures/tree/master/Week10/StrategyDesignPattern) |
+| Adapter Pattern | &#9745;              | [Adapter Pattern](https://github.com/simonsejse/SoftwareDevelopment_Lectures/tree/master/Week10/ClassAdapterPattern) |
+| Observer Pattern | &#9744;| Not implemented |
+| Factory Pattern | &#9744;| Not implemented |
+| Abstract Factory Pattern | &#9744;| Not implemented |
+| Singleton Pattern | &#9744;| Not implemented |
+| Builder Pattern | &#9744;| Not implemented |
+| Prototype Pattern | &#9744;| Not implemented |
+| Decorator Pattern | &#9744;| Not implemented |
+| Command Pattern | &#9744;| Not implemented |
+| Facade Pattern | &#9744;| Not implemented |
+| Bridge Pattern | &#9744;| Not implemented |
+| Template Method Pattern | &#9744;| Not implemented |
+| Iterator Pattern | &#9744;| Not implemented |
+| Composite Pattern | &#9744;| Not implemented |
+| Flyweight Pattern | &#9744;| Not implemented |
+| State Pattern | &#9744;| Not implemented |
+| Proxy Pattern | &#9744;| Not implemented |
+| Chain of Responsibility Pattern | &#9744;| Not implemented |
+| Interpreter Pattern | &#9744;| Not implemented |
+| Mediator Pattern | &#9744;| Not implemented |
+| Memento Pattern | &#9744;| Not implemented |
+| Visitor Pattern | &#9744;| Not implemented |
