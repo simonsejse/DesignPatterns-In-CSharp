@@ -10,7 +10,7 @@ I've spent countless hours studying and implementing design patterns in my own p
 
 Thank you for taking the time to check out my repository, and I hope that my implementations of design patterns in C# will be a valuable resource for your own projects.
 
-### Design Patterns Week 10
+## Design Patterns Implementations
 | Design Pattern | Has Been Implemented? | Url | 
 | --------------- | ---------------------| --- |
 | Strategy Pattern | &#9745;             | [Strategy Pattern](https://github.com/simonsejse/SoftwareDevelopment_Lectures/tree/master/Week10/StrategyDesignPattern) |
