@@ -11,7 +11,7 @@ I welcome contributions from the community, so please feel free to make pull req
 | --------------- | ---------------------| --- |
 | Strategy Pattern | &#9745;             | [Strategy Pattern](https://github.com/simonsejse/SoftwareDevelopment_Lectures/tree/master/Week10/StrategyDesignPattern) |
 | Adapter Pattern | &#9745;              | [Adapter Pattern](https://github.com/simonsejse/SoftwareDevelopment_Lectures/tree/master/Week10/ClassAdapterPattern) |
-| Observer Pattern | &#9744;| Not implemented |
+| Observer Pattern | &#9745; | [Observer pattern](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Observer%20Pattern) |
 | Factory Pattern | &#9744;| Not implemented |
 | Abstract Factory Pattern | &#9744;| Not implemented |
 | Singleton Pattern | &#9744;| Not implemented |
@@ -26,6 +26,7 @@ I welcome contributions from the community, so please feel free to make pull req
 | Composite Pattern | &#9744;| Not implemented |
 | Flyweight Pattern | &#9744;| Not implemented |
 | State Pattern | &#9744;| Not implemented |
+| State Machine Pattern | &#9744;| Not implemented |
 | Proxy Pattern | &#9744;| Not implemented |
 | Chain of Responsibility Pattern | &#9744;| Not implemented |
 | Interpreter Pattern | &#9744;| Not implemented |
