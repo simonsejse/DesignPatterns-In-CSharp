@@ -17,7 +17,6 @@ I welcome contributions from the community, so please feel free to make pull req
 | Bridge Pattern                  | &#9744; | Not implemented 
 | Flyweight Pattern               | &#9744; | Not implemented
 | Proxy Pattern                   | &#9744; | Not implemented 
-
 |                                 | **Behavioral patterns** |   | 
 | Strategy Pattern                | &#9745; | [Strategy Pattern](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/StrategyDesignPattern)
 | Interpreter Pattern             | &#9744; | Not implemented 
@@ -31,7 +30,6 @@ I welcome contributions from the community, so please feel free to make pull req
 | State Pattern                   | &#9744; | Not implemented 
 | State Machine Pattern           | &#9744; | Not implemented 
 | Visitor Pattern                 | &#9744; | Not implemented
-
 |                                 | **Creational patterns** |   | 
 | Factory Method Pattern          | &#9744; | Not implemented 
 | Factory Pattern                 | &#9744; | Not implemented 
