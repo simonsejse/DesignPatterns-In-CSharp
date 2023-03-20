@@ -34,3 +34,32 @@ I welcome contributions from the community, so please feel free to make pull req
 | Memento Pattern | &#9744;| Not implemented |
 | Visitor Pattern | &#9744;| Not implemented |
 
+
+
+| Design Pattern                  | Has Been Implemented? | Url                                                                                                          |   |
+|---------------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------|---|
+|                                 | Structural patterns   |                                                                                                              |   |
+| Strategy Pattern                | ☑                     | [Strategy Pattern](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/StrategyDesignPattern) |   |
+| Adapter Pattern                 | ☑                     | [Adapter Pattern](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Adapter%20Pattern)      |   |
+| Observer Pattern                | ☑                     | [Observer pattern](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Observer%20Pattern)    |   |
+| Factory Pattern                 | ☐                     | Not implemented                                                                                              |   |
+| Abstract Factory Pattern        | ☐                     | Not implemented                                                                                              |   |
+| Singleton Pattern               | ☐                     | Not implemented                                                                                              |   |
+| Builder Pattern                 | ☐                     | Not implemented                                                                                              |   |
+| Prototype Pattern               | ☐                     | Not implemented                                                                                              |   |
+| Decorator Pattern               | ☐                     | Not implemented                                                                                              |   |
+| Command Pattern                 | ☐                     | Not implemented                                                                                              |   |
+| Facade Pattern                  | ☐                     | Not implemented                                                                                              |   |
+| Bridge Pattern                  | ☐                     | Not implemented                                                                                              |   |
+| Template Method Pattern         | ☐                     | Not implemented                                                                                              |   |
+| Iterator Pattern                | ☐                     | Not implemented                                                                                              |   |
+| Composite Pattern               | ☐                     | Not implemented                                                                                              |   |
+| Flyweight Pattern               | ☐                     | Not implemented                                                                                              |   |
+| State Pattern                   | ☐                     | Not implemented                                                                                              |   |
+| State Machine Pattern           | ☐                     | Not implemented                                                                                              |   |
+| Proxy Pattern                   | ☐                     | Not implemented                                                                                              |   |
+| Chain of Responsibility Pattern | ☐                     | Not implemented                                                                                              |   |
+| Interpreter Pattern             | ☐                     | Not implemented                                                                                              |   |
+| Mediator Pattern                | ☐                     | Not implemented                                                                                              |   |
+| Memento Pattern                 | ☐                     | Not implemented                                                                                              |   |
+| Visitor Pattern                 | ☐                     | Not implemented                                                                                              |   |
