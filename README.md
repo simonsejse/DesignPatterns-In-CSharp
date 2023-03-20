@@ -8,7 +8,7 @@ I welcome contributions from the community, so please feel free to make pull req
 
 ## Design Patterns Implementations
 | Design Pattern | Has Been Implemented? | Url    
-| --------------- | ---------------------|
+| --------------- | ---------------------|---|
 | Strategy Pattern                | &#9745; | [Strategy Pattern](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/StrategyDesignPattern)
 | Adapter Pattern                 | &#9745; | [Adapter Pattern](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Adapter%20Pattern)
 | Observer Pattern                | &#9745; | [Observer pattern](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Observer%20Pattern)
