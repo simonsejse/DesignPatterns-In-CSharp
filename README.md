@@ -11,7 +11,6 @@ I welcome contributions from the community, so please feel free to make pull req
 | ------------------------------- | --------|--|
 |                                 | **Structural patterns** |   | 
 | Adapter Pattern                 | &#9745; | [Adapter Pattern](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Adapter%20Pattern)
-| Adapter Pattern (Extra)                 | &#9745; | [Adapter Pattern](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Adapter%20Pattern)
 | Decorator Pattern               | &#9744; | Not implemented 
 | Composite Pattern               | &#9744; | Not implemented
 | Facade Pattern                  | &#9744; | Not implemented 
