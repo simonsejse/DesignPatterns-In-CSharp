@@ -11,6 +11,7 @@ I welcome contributions from the community, so please feel free to make pull req
 | ------------------------------- | --------|--|
 |                                 | **Structural patterns** |   | 
 | Adapter Pattern                 | &#9745; | [Adapter Pattern](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Adapter%20Pattern)
+| Adapter Pattern                 | &#9745; | [Adapter Pattern](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Adapter%20Pattern) | ![Alt text](https://github.com/simonsejse/DesignPatterns-In-CSharp/blob/master/StrategyDesignPattern/IMG/Second_Strategy_Pattern_in_UML.png)
 | Decorator Pattern               | &#9744; | Not implemented 
 | Composite Pattern               | &#9744; | Not implemented
 | Facade Pattern                  | &#9744; | Not implemented 
