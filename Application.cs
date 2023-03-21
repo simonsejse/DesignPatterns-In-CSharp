@@ -9,7 +9,8 @@ public class Application
             new ClassAdapterPattern.Program(),
             new StrategyDesignPattern.Program(),
             new Observer_Pattern.Program(),
-            new State_Pattern.Program()
+            new State_Pattern.Program(),
+            new EventBus.Program(),
         };
         
         foreach(var pattern in patterns)
