@@ -26,6 +26,15 @@ public interface IEventBus<TEvent> where TEvent : Enum
     /// <param name="eventProcessor">The event processor (the subscriber/dependent)</param>
     void Unsubscribe(TEvent @event, IEventProcessor<TEvent> eventProcessor);
     
-   
-    void RegisterEvent(TEvent @event, Event<TEvent> anEvent);
+   /// <summary>
+   /// Registers events to the EventBus
+   /// If no 
+   /// </summary>
+   /// <param name="event">The event to be registered</param>
+    void RegisterEvent(Event<TEvent> @event);
+
+    /// <summary>
+    /// Invoked when an event is registered and then distributes it to the subscribers. 
+    /// </summary>
+   void ProcessEvents();
 }

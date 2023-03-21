@@ -2,7 +2,7 @@ using System.Diagnostics.Tracing;
 
 namespace Week10.EventBus;
 
-public class GameEventBus<TEvent> : IEventBus<TEvent> where TEvent : Enum
+public class EventBus<TEvent> : IEventBus<TEvent> where TEvent : Enum
 {
     private Dictionary<TEvent, ICollection<IEventProcessor<TEvent>>> _eventProcessors { get; set; }
     private Dictionary<TEvent, Queue<Event<TEvent>>> _eventsQueue { get; set; }
@@ -50,15 +50,52 @@ public class GameEventBus<TEvent> : IEventBus<TEvent> where TEvent : Enum
         _eventProcessors[@event].Remove(eventProcessor);
     }
 
-    public void RegisterEvent(TEvent @event, Event<TEvent> anEvent)
+    public void RegisterEvent(Event<TEvent> anEvent)
     {
         if (_eventsQueue == default(Dictionary<TEvent, Queue<Event<TEvent>>>))
             throw new InvalidOperationException("You have to initialise the event bus first!");
         
-        if (_eventsQueue[@event] == default(Queue<Event<TEvent>>))
+        if (_eventsQueue[anEvent.EventType] == default(Queue<Event<TEvent>>))
             throw new InvalidOperationException("eventsQueue cannot be null!");
         
-        _eventsQueue[@event].Enqueue(anEvent);
+        _eventsQueue[anEvent.EventType].Enqueue(anEvent);
+        ProcessEvents();
     }
     
+
+
+    public void ProcessEvents()
+    {
+        if (_eventsQueue == default(Dictionary<TEvent, Queue<Event<TEvent>>>))
+            throw new InvalidOperationException("EventsQueue cannot be null!");
+
+        if (_eventProcessors == default(Dictionary<TEvent, ICollection<IEventProcessor<TEvent>>>))
+            throw new InvalidOperationException("EventProcessors cannot be null!");
+
+        var eventKeys = _eventsQueue.Keys;
+
+        if (_eventsQueue.Count <= 0) return;
+
+        foreach (var eventType in eventKeys)
+        {
+            while (_eventsQueue[eventType].Count > 0)
+            {
+                Event<TEvent> @event = _eventsQueue[eventType].Dequeue();
+                if (@event.To is not default(IEventProcessor<TEvent>))
+                {
+                    @event.To.HandleEvent(@event);
+                }
+                else //The specific eventProcessor is null, hence go through all subscribed ones in dictionary
+                {
+                    foreach (IEventProcessor<TEvent> eventProcessor in eventKeys
+                                 .Select(type => _eventProcessors[type])
+                                 .Where(ep => ep.Count > 0)
+                                 .SelectMany(e => e))
+                    {
+                        eventProcessor.HandleEvent(@event);
+                    }
+                }
+            }
+        }
+    }
 }
