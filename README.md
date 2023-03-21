@@ -23,6 +23,7 @@ I welcome contributions from the community, so please feel free to make pull req
 | Template Method Pattern         | &#9744; | Not implemented
 | Mediator Pattern                | &#9744; | Not implemented 
 | Observer Pattern                | &#9745; | [Observer pattern](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Observer%20Pattern)
+| The Event Bus                   | &#9745; | [The Event Bus](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/EventBus)
 | Chain of Responsibility Pattern | &#9744; | Not implemented 
 | Command Pattern                 | &#9744; | Not implemented 
 | Iterator Pattern                | &#9744; | Not implemented
