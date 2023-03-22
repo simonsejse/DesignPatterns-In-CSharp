@@ -9,7 +9,7 @@ I welcome contributions from the community, so please feel free to make pull req
 ## Design Patterns Implementations
 | Design Pattern | Has Been Implemented? | Url    
 | ------------------------------- | --------|--|
-|                                 | <font size="12">**Structural patterns**</font> |   | 
+|                                 | # Structural patterns  |   | 
 | Adapter Pattern                 | &#9745; | [Adapter Pattern](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Adapter%20Pattern)
 | Decorator Pattern               | &#9744; | Not implemented 
 | Composite Pattern               | &#9744; | Not implemented
