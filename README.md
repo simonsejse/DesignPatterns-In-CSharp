@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/assets/logo.png" width="240px" height="240px" />
+  <img src="/assets/csharplogo.png" width="240px" height="240px" />
 </p>
 
 # Design Patterns in C#
