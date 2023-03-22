@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="/assets/logo.png" width="240px" height="240px" />
+</p>
+
 # Design Patterns in C#
 
 Welcome to my repository of design pattern implementations in C#! My goal is to provide well-documented and easy-to-use code examples for developers of all levels to learn and benefit from.
