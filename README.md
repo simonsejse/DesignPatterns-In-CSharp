@@ -43,3 +43,6 @@ I welcome contributions from the community, so please feel free to make pull req
 | Builder Pattern                 | &#9744; | Not implemented 
 | Prototype Pattern               | &#9744; | Not implemented 
 | Interpreter Pattern             | &#9744; | Not implemented 
+
+
+inversion of control / dependency injection pattern
