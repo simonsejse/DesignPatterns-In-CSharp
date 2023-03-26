@@ -1,8 +1,8 @@
 ﻿namespace Week10.EventBus;
 
-public struct Event<T> where T : Enum
+public struct Event<TEvent> where TEvent : Enum
 {
-    public T EventType;
-    public IEventProcessor<T> To;
+    public TEvent[] EventType;
+    public IEventProcessor<TEvent> To;
     public string Message;
 }

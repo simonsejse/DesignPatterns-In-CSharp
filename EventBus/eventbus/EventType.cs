@@ -2,5 +2,6 @@
 
 public enum EventType
 {
-    Message
+    Message,
+    Alert
 }

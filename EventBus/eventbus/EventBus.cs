@@ -38,11 +38,11 @@ public class EventBus<TEvent> : IEventBus<TEvent> where TEvent : Enum
 
     public void Unsubscribe(TEvent @event, IEventProcessor<TEvent> eventProcessor)
     {
-        if (_eventProcessors == default(Dictionary<TEvent, ICollection<IEventProcessor<TEvent>>>))
-            throw new InvalidOperationException("You have to initialise the event bus first!");
-        
         if (eventProcessor == default(IEventProcessor<TEvent>))
             throw new InvalidOperationException("eventProcessor cannot be null!");
+
+        if (_eventProcessors == default(Dictionary<TEvent, ICollection<IEventProcessor<TEvent>>>))
+            throw new InvalidOperationException("You have to initialise the event bus first!");
         
         if (_eventProcessors[@event] == default(ICollection<IEventProcessor<TEvent>>))
             throw new ArgumentNullException(nameof(eventProcessor), "eventProcessor has not been added to the dictionary initialise first!");
@@ -55,10 +55,7 @@ public class EventBus<TEvent> : IEventBus<TEvent> where TEvent : Enum
         if (_eventsQueue == default(Dictionary<TEvent, Queue<Event<TEvent>>>))
             throw new InvalidOperationException("You have to initialise the event bus first!");
         
-        if (_eventsQueue[anEvent.EventType] == default(Queue<Event<TEvent>>))
-            throw new InvalidOperationException("eventsQueue cannot be null!");
-        
-        _eventsQueue[anEvent.EventType].Enqueue(anEvent);
+        foreach (var @event in anEvent.EventType) _eventsQueue[@event].Enqueue(anEvent);
         ProcessEvents();
     }
     
@@ -87,10 +84,10 @@ public class EventBus<TEvent> : IEventBus<TEvent> where TEvent : Enum
                 }
                 else //The specific eventProcessor is null, hence go through all subscribed ones in dictionary
                 {
-                    foreach (IEventProcessor<TEvent> eventProcessor in eventKeys
-                                 .Select(type => _eventProcessors[type])
-                                 .Where(ep => ep.Count > 0)
-                                 .SelectMany(e => e))
+                    Console.WriteLine(""+_eventProcessors[eventType].Count);
+                    if (_eventProcessors[eventType].Count <= 0) continue;
+                    
+                    foreach (IEventProcessor<TEvent> eventProcessor in _eventProcessors[eventType])
                     {
                         eventProcessor.HandleEvent(@event);
                     }

@@ -9,6 +9,6 @@ public class Notification2 : IEventProcessor<EventType>
     
     public void HandleEvent(Event<EventType> @event)
     {
-        Console.WriteLine("Notification 2 | Subscribed!");
+        Console.WriteLine("Notification 2 | Subscribed to message!");
     }
 }
