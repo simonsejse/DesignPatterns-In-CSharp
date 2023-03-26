@@ -2,6 +2,6 @@
 
 public interface ITestPattern
 {
-    void Run();
     string Name();
+    void Run();
 }
