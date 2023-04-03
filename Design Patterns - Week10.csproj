@@ -9,6 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Folder Include="Factory Pattern" />
       <Folder Include="Observer Pattern\Image" />
     </ItemGroup>
 
