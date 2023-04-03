@@ -2,5 +2,8 @@
 
 public class Test
 {
-    
+    public void PrRequestTest()
+    {
+        
+    }
 }
