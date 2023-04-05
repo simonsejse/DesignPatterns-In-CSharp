@@ -38,7 +38,7 @@ I welcome contributions from the community, so please feel free to make pull req
 |                                 | **Creational patterns** |   | 
 | Factory Method Pattern          | &#9744; | Not implemented 
 | Factory Pattern                 | &#9744; | Not implemented
-| Abstract Factory Pattern        | &#9745; | [Abstract Factory Pattern (Widgets example)](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Factory%20Pattern) <br/>  [Abstract Factory Pattern (Maze example)](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Factory%20Pattern) 
+| Abstract Factory Pattern        | &#9745; | [Abstract Factory Pattern (Widgets example)](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Factory%20Pattern) <br/> [Abstract Factory Pattern (Maze example)](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Factory%20Pattern) 
 | Singleton Pattern               | &#9744; | Not implemented 
 | Builder Pattern                 | &#9744; | Not implemented 
 | Prototype Pattern               | &#9744; | Not implemented 
