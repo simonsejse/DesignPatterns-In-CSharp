@@ -1,6 +1,6 @@
-﻿using Week10.Factory_Pattern.AbstractProducts;
+﻿using Week10.Abstract_Factory_Pattern.AbstractProducts;
 
-namespace Week10.Factory_Pattern.ConcreteProducts;
+namespace Week10.Abstract_Factory_Pattern.ConcreteProducts;
 
 public class PmScrollBar : IScrollBar
 {
