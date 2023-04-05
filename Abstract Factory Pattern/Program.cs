@@ -1,12 +1,11 @@
-﻿using Week10.Factory_Pattern.AbstractFactory;
-using Week10.Factory_Pattern.AbstractProducts;
-using Week10.Factory_Pattern.ConcreteFactory;
+﻿using Week10.Abstract_Factory_Pattern.AbstractProducts;
+using Week10.Abstract_Factory_Pattern.ConcreteFactory;
 
 namespace Week10.Factory_Pattern;
 
 public class Program : ITestPattern
 {
-    public string Name() => "Factory Pattern"; 
+    public string Name() => "Abstract Factory Pattern (Widget example)"; 
 
     public void Run()
     {
