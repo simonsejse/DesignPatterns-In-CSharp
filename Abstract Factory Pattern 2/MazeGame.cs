@@ -2,6 +2,7 @@
 
 public class MazeGame
 {
+    //This is a Factory Method:
     public Maze CreateMaze(MazeFactory factory)
     {
         Maze makeMaze = factory.MakeMaze();
