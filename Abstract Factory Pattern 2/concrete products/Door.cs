@@ -4,7 +4,7 @@ public class Door
 {
     private readonly Room _r1;
     private readonly Room _r2;
-
+    
     public Door(Room r1, Room r2)
     {
         _r1 = r1;
