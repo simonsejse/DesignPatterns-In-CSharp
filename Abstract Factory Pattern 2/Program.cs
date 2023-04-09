@@ -9,6 +9,8 @@ public class Program : ITestPattern
 
     public void Run()
     {
-       
+        MazeGame mazeGame = new MazeGame();
+        var mazeFactory = new MazeFactory();
+        Maze maze = mazeGame.CreateMaze(mazeFactory);
     }
 }
