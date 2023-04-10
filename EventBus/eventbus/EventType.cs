@@ -3,5 +3,6 @@
 public enum EventType
 {
     Message,
-    Alert
+    Alert,
+    None
 }

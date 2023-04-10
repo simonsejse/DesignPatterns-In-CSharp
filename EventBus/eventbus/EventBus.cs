@@ -55,6 +55,9 @@ public class EventBus<TEvent> : IEventBus<TEvent> where TEvent : Enum
         if (_eventsQueue == default(Dictionary<TEvent, Queue<Event<TEvent>>>))
             throw new InvalidOperationException("You have to initialise the event bus first!");
         
+        if (anEvent.EventType == default(TEvent[]))
+            throw new InvalidOperationException("Event type cannot be null!");
+        
         foreach (var @event in anEvent.EventType) _eventsQueue[@event].Enqueue(anEvent);
         ProcessEvents();
     }
