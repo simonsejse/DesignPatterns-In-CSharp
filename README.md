@@ -33,7 +33,7 @@ I welcome contributions from the community, so please feel free to make pull req
 | Iterator Pattern                | &#9744; | Not implemented
 | Memento Pattern                 | &#9744; | Not implemented
 | State Pattern                   | &#9744; | Not implemented 
-| State Machine Pattern           | &#9744; | Not implemented 
+| State Machine Pattern           | &#9745; | [State machine]()
 | Visitor Pattern                 | &#9744; | Not implemented
 |                                 | **Creational patterns** |   | 
 | Factory Method Pattern          | &#9744; | Not implemented 
