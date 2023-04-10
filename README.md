@@ -38,9 +38,9 @@ I welcome contributions from the community, so please feel free to make pull req
 |                                 | **Creational patterns** |   | 
 | Factory Method Pattern          | &#9744; | Not implemented 
 | Factory Pattern                 | &#9744; | Not implemented 
-| Abstract Factory Pattern        | &#9744; | Not implemented 
+| Abstract Factory Pattern        | &#9745; | [Abstract Factory (Widget)](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/builder_pattern_csharp/Abstract%20Factory%20Pattern) <br/> [Abstract Factory (Maze)](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/builder_pattern_csharp/Abstract%20Factory%20Pattern%202)
 | Singleton Pattern               | &#9744; | Not implemented 
-| Builder Pattern                 | &#9744; | [Builder Pattern (Pizza, Best)](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/builder_pattern_csharp/Builder%20pattern%20(Pizza)) <br/> [Builder Pattern (House)](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/builder_pattern_csharp/Builder%20Pattern%20(House)) 
+| Builder Pattern                 | &#9745; | [Builder Pattern (Pizza, Best)](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/builder_pattern_csharp/Builder%20pattern%20(Pizza)) <br/> [Builder Pattern (House)](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/builder_pattern_csharp/Builder%20Pattern%20(House)) 
 | Prototype Pattern               | &#9744; | Not implemented 
 | Interpreter Pattern             | &#9744; | Not implemented 
 
