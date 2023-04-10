@@ -9,7 +9,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Builder pattern (Pizza)" />
       <Folder Include="Observer Pattern\Image" />
     </ItemGroup>
 

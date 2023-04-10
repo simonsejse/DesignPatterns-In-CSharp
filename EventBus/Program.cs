@@ -11,10 +11,14 @@ public class Program : ITestPattern
     public void Run()
     {
         EventBus<EventType> eventBus = EventBusMachine.GetInstance();
-        eventBus.InitialiseEventBus(new List<EventType> { EventType.Message, EventType.Alert});
+        eventBus.InitialiseEventBus(new List<EventType> { EventType.Message, EventType.Alert, EventType.None});
         
         _notification1 = new Notification1();
         Event<EventType> onlyNotification1 = new() {
+            EventType = new []
+            {
+                EventType.None
+            },
             To = _notification1,
         }; 
         

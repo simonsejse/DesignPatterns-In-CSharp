@@ -11,6 +11,8 @@ public class Application
             new Observer_Pattern.Program(),
             new Factory_Pattern.Program(),
             new EventBus.Program(),
+            new Builder_Pattern__House_.Program(),
+            new Builder_pattern__Pizza_.Program(),
         };
         
         foreach(var pattern in patterns)
