@@ -40,7 +40,7 @@ I welcome contributions from the community, so please feel free to make pull req
 | Factory Pattern                 | &#9744; | Not implemented 
 | Abstract Factory Pattern        | &#9744; | Not implemented 
 | Singleton Pattern               | &#9744; | Not implemented 
-| Builder Pattern                 | &#9744; | Not implemented 
+| Builder Pattern                 | &#9744; | [Builder Pattern (Pizza, Best)](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/builder_pattern_csharp/Builder%20pattern%20(Pizza)) <br/> [Builder Pattern (House)](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/builder_pattern_csharp/Builder%20Pattern%20(House)) 
 | Prototype Pattern               | &#9744; | Not implemented 
 | Interpreter Pattern             | &#9744; | Not implemented 
 
