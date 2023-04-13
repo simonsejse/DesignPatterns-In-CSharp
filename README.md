@@ -41,7 +41,7 @@ I welcome contributions from the community, so please feel free to make pull req
 | Abstract Factory Pattern        | &#9745; | [Abstract Factory Pattern (Widgets example)](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Abstract%20Factory%20Pattern) <br/> [Abstract Factory Pattern (Maze example)](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Abstract%20Factory%20Pattern%202) 
 | Singleton Pattern               | &#9744; | Not implemented 
 | Builder Pattern                 | &#9745; | [Builder pattern (Pizza, best)](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Builder%20pattern%20(Pizza)) <br/> [Builder pattern (House)](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Builder%20Pattern%20(House)) 
-| Prototype Pattern               | &#9744; | Not implemented 
+| Prototype Pattern               | &#9745; | [Prototype pattern](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Prototype%20Pattern)
 | Interpreter Pattern             | &#9744; | Not implemented 
 
 
