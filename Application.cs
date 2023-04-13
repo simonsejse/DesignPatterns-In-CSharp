@@ -13,6 +13,7 @@ public class Application
             new EventBus.Program(),
             new Builder_Pattern__House_.Program(),
             new Builder_pattern__Pizza_.Program(),
+            new Prototype_Pattern.Program()
         };
         
         foreach(var pattern in patterns)
