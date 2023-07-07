@@ -44,5 +44,3 @@ I welcome contributions from the community, so please feel free to make pull req
 | Prototype Pattern               | &#9745; | [Prototype pattern](https://github.com/simonsejse/DesignPatterns-In-CSharp/tree/master/Prototype%20Pattern)
 | Interpreter Pattern             | &#9744; | Not implemented 
 
-
-inversion of control / dependency injection pattern
